@@ -2,6 +2,16 @@
   margin: 0px;
   padding: 0px;
 }
+.container{
+  width: 900px;
+  height: 400px;
+  margin:10px;
+  background-color: violet;
+  align-content: space-around;
+  justify-content:space-evenly ;
+
+}
+
 #first{
 background-color: aqua;
 height: 100px;
@@ -16,10 +26,10 @@ height: 100px;
 width: 100px;
 display: inline-block;
 margin: 20px;
-position: absolute;
+/* position: absolute;
 top: 20px;
 right: 0px;
-opacity: 0%;
+opacity:; */
 /* visibility: hidden; */
 }
 #third{
@@ -29,16 +39,11 @@ width: 100px;
 display: inline-block;
 margin: 20px;
 }
-/* #container{
-  width: 450px;
-  margin: 0px auto;
-  background-color: violet;
-} */
-/* #p{
-  width: 600px;
-  height: 200px;
-  overflow: scroll;
+#main{
+  background-color: blueviolet;
+  width: 1000px;
+  height: 500px;
+  display:flex;
+  
 }
-p{
-  font-size: 60px;
-} */
+
